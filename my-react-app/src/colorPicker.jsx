@@ -12,9 +12,9 @@ function ColorPicker(){
     return (<div className="color-picker-container">
         <h1> Color  Picker</h1>
         <div className="color-display" style={{background:color}}>
-            <p>Slected Color:{color}</p>
+            <p>Slected Colour:{color}</p>
         </div>
-        <label> Select a color :</label>
+        <label> Select a colour :</label>
         <input  type="color" value={color} onChange ={handleColorChange}></input>  
 
 
